@@ -5,7 +5,8 @@
 }
 .back{
 	background-color: #e1e1ea;
-	height: 660px;
+	height: 960px;
+	width: 100%;
 }
 /*termina header*/
 /*comienza section*/
@@ -153,8 +154,8 @@
 .escribe{
 	padding-left: 3%;
 	width: 94%;
-	margin-top: -3%
-	position:absolute;
+	margin-top: 13%;
+	position:relative;
 }
 .micro{
 	margin-left: 96%;
