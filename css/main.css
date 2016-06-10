@@ -1,0 +1,163 @@
+.back1{
+	background-color: #006600;
+	width: 100%;
+	height: 100px;
+}
+.back{
+	background-color: #e1e1ea;
+	height: 660px;
+}
+/*termina header*/
+/*comienza section*/
+.azul{
+	background-color: #e1e1ea;
+	border:1px solid #d2d2e0;
+	padding: 2%;
+}
+.imgprinc{
+	width: 15%;
+	height: auto;
+	border-radius: 100%;
+	background-image: cover;
+}
+.icon-dots-three-vertical{
+	font-size: 24px;
+	margin-left: 90%;
+	margin-top: -10%;
+	color:gray;
+}
+.icon-message{
+	font-size: 24px;
+	margin-left: 70%;
+	margin-top: -7%;
+	margin-bottom: 5%;
+	color: gray;
+}
+.plogo{
+	margin-left: 10%;
+	margin-top: -5%;
+}
+.plogo1{
+	margin-left: 10%;
+	margin-top: -2%;
+}
+.logo{
+	width: 7%;
+	height: auto;
+	border-radius: 100%;
+	background-image: cover;
+}
+.pimg{
+	margin-left: 10%;
+	margin-top: -8%;
+}
+.pimg1{
+	margin-left: 10%;
+	margin-top: -2%;
+}
+.cuadro{
+	margin-top: -2%;
+	color:gray;
+}
+.tres{
+	margin-bottom: -2%;
+	color:gray;
+}
+.lupa{
+	position:absolute;
+	margin-top: -7%;
+	padding: 1%;
+	margin-left: 1%;
+}
+.rectawhite{
+	width: 100%;
+	height: 55px;
+	background-color: white;
+	border: solid 1px #d2d2e0;
+	padding: 1%; 
+	margin-top: -3%;
+}
+.circulo{
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+}
+.plogo{
+	padding-top:5%;
+	padding-bottom: 2%;
+}
+#scroll-1{
+  	overflow-y: scroll;
+  	height: 535px;
+}
+.back2{
+	background-image: url("../image/chat-panel-bg.png");
+	width: 100%;
+	height: 495px;
+	
+}
+.rectawhite1{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	border: solid 1px #d2d2e0;
+	padding: 2%; 
+	margin-top:3%;
+	margin-bottom: -4%;
+}
+.rectagreen{
+	background-color: #ccffad;
+	width: 80%;
+	height: 53px;
+	border-radius: 10px;
+	padding: 5px;
+	margin-left: 450px;
+}
+.rectawhite2{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	border: solid 1px #d2d2e0;
+	padding: 1%; 
+	margin-top:8%;
+	margin-bottom: -11%;
+}
+.p1{
+	color:orange;
+	padding-left: 10%;
+}
+.phora{
+	margin-left: 90%;
+	margin-top: -4%;
+}
+.p2{
+	color:purple;
+	padding-left: 10%;
+}
+.p3{
+	color:red;
+	padding-left: 10%;
+}
+.p4{
+	color:green;
+	padding-left: 10%;
+}
+.backgray{
+	background-color: #dfdfdf;
+	border: 1px solid #B0C7B9;
+	width: 100%;
+	height: 50px;
+	margin-top: 67%;
+	margin-left:5px;
+}
+.escribe{
+	padding-left: 3%;
+	width: 94%;
+	margin-top: -3%
+	position:absolute;
+}
+.micro{
+	margin-left: 96%;
+	margin-top: -3%;
+}
+/*termina section*/
