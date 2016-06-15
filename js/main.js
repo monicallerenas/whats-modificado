@@ -82,6 +82,7 @@ $('#btnEnviar').click(function(){
 
     var mensajes = []
     var objeto ={mensaje:"hola",tiempo:"12:45"}
+    mensajes.push(objeto)
 });
 
  
