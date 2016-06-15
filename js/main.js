@@ -1,3 +1,5 @@
+/*esta funcion es para q se vea el msj y lo guarde
+arriba*/
 var contactos = [
 	
 	{nombre : 'Aldo'},
@@ -28,7 +30,7 @@ function pintarMensaje(texto) {
    $('#mensajes').append(elementoDom);
    
 };
-
+/*esta es para buscar los contactos*/
 $('#inputBuscar').keypress(function(){
 	
 	var value = $('#inputBuscar').val();
@@ -65,19 +67,21 @@ $('#btnEnviar').click(function(){
 
 	for (var i=0; i < contactos.length;i++) {
 		var nombre = contactos[i].nombre;
-		var el = '<div class="row"><div class="rectawhite" id="chat"><div class="col-xs-2 col-lg-2 caja"><img class="circulo" src="image/logocodeacademy.png"></div><div class="col-xs-8 col-lg-8"><p class="plogo">' + nombre + '</p><p class="plogo1">Texto</p></div><div class="col-xs-2 col-lg-2"><p class="plogo1">14:25</p></div></div></div>'
+		var el = '<div class="row"><div class="rectawhite" id="chat"><div class="col-xs-2 col-lg-2 caja"><img class="circulo" src="image/logocodeacademy.png"></div><div class="col-xs-8 col-lg-8"><p class="plogo">' + nombre + '</p><p class="plogo1">hola</p></div><div class="col-xs-2 col-lg-2"><p class="plogo1">14:25</p></div></div></div>'
 		$('#scroll-1').append(el);
 	}
-	/*var parrafo = $('#contactos').text();
-    for (i=0; i<mensajes.length; i++){
+
+	var parrafo = $('contactos').text();
+    for (i=0; i< mensajes.length; i++){
       var resp = mensajes [i];
       
-      if (contacto == resp.person){
+      if (parrafo == resp.person){
         alert(resp.msj);
       }
-    }*/
+    }
 
-
+    var mensajes = []
+    var objeto ={mensaje:"hola",tiempo:"12:45"}
 });
 
  
