@@ -1,3 +1,21 @@
+var contactos = [
+	
+	{nombre : 'Aldo'},
+
+	{nombre : 'Raymi'},
+
+	{nombre :'Ana Maria'},
+
+	{nombre : 'Rodolfo'},
+
+	{nombre : 'Katy'},
+
+	{nombre : 'Andrea'},
+
+	{nombre : 'Maria'},
+
+];
+
 $(document).ready(function(){
 
 function pintarMensaje(texto) {
@@ -11,6 +29,31 @@ function pintarMensaje(texto) {
    
 };
 
+$('#inputBuscar').keypress(function(){
+	
+	var value = $('#inputBuscar').val();
+	if(value == '') {
+		for (var i=0; i < contactos.length;i++) {
+		var nombre = contactos[i].nombre;
+		var el = '<div class="row"><div class="rectawhite" id="chat"><div class="col-xs-2 col-lg-2 caja"><img class="circulo" src="image/logocodeacademy.png"></div><div class="col-xs-8 col-lg-8"><p class="plogo">' + nombre + '</p><p class="plogo1">Texto</p></div><div class="col-xs-2 col-lg-2"><p class="plogo1">14:25</p></div></div></div>'
+		$('#scroll-1').append(el);
+	}
+	} else {
+		for (var i=0; i < contactos.length;i++) {
+		var nombre = contactos[i].nombre;
+
+		if (nombre.indexOf(value) > -1) {
+			var el = '<div class="row"><div class="rectawhite" id="chat"><div class="col-xs-2 col-lg-2 caja"><img class="circulo" src="image/logocodeacademy.png"></div><div class="col-xs-8 col-lg-8"><p class="plogo">' + nombre + '</p><p class="plogo1">Texto</p></div><div class="col-xs-2 col-lg-2"><p class="plogo1">14:25</p></div></div></div>'
+		$('#scroll-1').append(el);
+		}
+
+		
+	}
+	}
+	
+
+});
+
 $('#btnEnviar').click(function(){
    
    var texto = $('#inputMensaje').val();
@@ -18,7 +61,24 @@ $('#btnEnviar').click(function(){
    pintarMensaje(texto);
    $('#inputMensaje').val('');
 
-});
+   });
+
+	for (var i=0; i < contactos.length;i++) {
+		var nombre = contactos[i].nombre;
+		var el = '<div class="row"><div class="rectawhite" id="chat"><div class="col-xs-2 col-lg-2 caja"><img class="circulo" src="image/logocodeacademy.png"></div><div class="col-xs-8 col-lg-8"><p class="plogo">' + nombre + '</p><p class="plogo1">Texto</p></div><div class="col-xs-2 col-lg-2"><p class="plogo1">14:25</p></div></div></div>'
+		$('#scroll-1').append(el);
+	}
+	/*var parrafo = $('#contactos').text();
+    for (i=0; i<mensajes.length; i++){
+      var resp = mensajes [i];
+      
+      if (contacto == resp.person){
+        alert(resp.msj);
+      }
+    }*/
+
 
 });
+
+ 
 

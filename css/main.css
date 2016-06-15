@@ -14,6 +14,7 @@
 	background-color: #e1e1ea;
 	border:1px solid #d2d2e0;
 	padding: 2%;
+	width: 100%;
 }
 .imgprinc{
 	width: 15%;
@@ -68,7 +69,7 @@
 	position:absolute;
 	margin-top: -7%;
 	padding: 1%;
-	margin-left: 1%;
+	margin-left: 85%;
 }
 .rectawhite{
 	width: 100%;
@@ -94,7 +95,7 @@
 .back2{
 	background-image: url("../image/chat-panel-bg.png");
 	width: 100%;
-	height: 495px;
+	height: 700px;
 	
 }
 .rectawhite1{
@@ -148,17 +149,21 @@
 	border: 1px solid #B0C7B9;
 	width: 100%;
 	height: 50px;
-	margin-top: 67%;
+	margin-top: 90%;
 	margin-left:5px;
 }
 .escribe{
-	padding-left: 3%;
+	padding-left: 5%;
+	margin-top: -2%;
 	width: 94%;
-	margin-top: 13%;
 	position:relative;
 }
 .micro{
 	margin-left: 96%;
 	margin-top: -3%;
+}
+#btnEnviar{
+	margin-left: 90%;
+	margin-top: -10%;
 }
 /*termina section*/
